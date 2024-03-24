@@ -259,7 +259,7 @@ void shift_ext_right(s21_decimal_extended *decimal, int steps) {
       decimal->bits[i] >>= 1;
       set_bit_to_index_ext(decimal, (i + 1) * BLOCK_BITS - 1, buffer[i]);
     }
-    decimal->bits[7] >>= 1;
+    decimal->bits[6] >>= 1;
   }
 }
 
