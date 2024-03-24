@@ -14,7 +14,7 @@ TEST_SRC=test.c
 OS := $(shell uname -s)
 
 ifeq ($(OS),Linux)
-  OPEN_CMD = xdg-open
+	OPEN_CMD = xdg-open
 endif
 ifeq ($(OS),Darwin)
 	OPEN_CMD = open
