@@ -33,9 +33,9 @@ A decimal number is a floating-point value consisting of a sign, a numeric value
 
 `test` - run function tests.
 
-`leaks' - check the tested code for leaks.
+`leaks` - check the tested code for leaks.
 
-`gcov_report' - view the code test coverage.
+`gcov_report` - view the code test coverage.
 
 ## Technical assignment
 ### Binary representation
@@ -104,7 +104,7 @@ The return value is the error code:
 
 - *If the numbers are too small (0 < |x| < 1e-28), return an error and a value equal to 0*
 - *If the numbers are too large (|x| > 79,228,162,514,264,337,593,543,950,335) or equal to infinity, return an error*
-- *When processing a number with the float type, convert all significant decimal digits contained in it. If there are more than 7 such digits, then the value of the number is rounded to the nearest one, which has no more than 7 significant digits. *
+- When processing a number with the float type, convert all significant decimal digits contained in it. If there are more than 7 such digits, then the value of the number is rounded to the nearest one, which has no more than 7 significant digits.<br>
 *Clarification about converting from a decimal number to an int type:*
 - *If there is a fractional part in a decimal number, then it should be discarded (for example, 0.9 is converted to 0)*
 
