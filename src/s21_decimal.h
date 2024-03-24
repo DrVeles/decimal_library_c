@@ -1,10 +1,10 @@
 #ifndef SRC_S21_DECIMAL_H_
 #define SRC_S21_DECIMAL_H_
 
+#include <limits.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 #define MAX_BITS 224
 #define MAX_MANTISS_BITS 192
